@@ -1,0 +1,15 @@
+app:
+  name: voda-wind-turbine-app
+  namespace: voda
+  cluster: .apps.wearedevs.rl97.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/WindTurbineInc/voda-wind-turbine
+  org: WindTurbineInc
+  name: voda-wind-turbine
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: voda/wind-turbine-app
+  tag: latest
